@@ -1,0 +1,375 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body {
+	font-family: sans-serif;
+}
+
+/*Header Section CSS Starts*/
+.header-section {
+	background: #121B2A;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-section .wrapper .logo {
+    width: 20%;
+    float: left;
+    margin: 10px 0;
+}
+.header-section .wrapper .logo img {
+    width: 100%;
+}
+.header-section .wrapper .menu-bar {
+    width: 66%;
+    float: right;
+    margin-top: 70px;
+}
+.header-section .wrapper .menu-bar .login {
+    margin-top: -69px;
+    float: right;
+    overflow: hidden;
+}
+#head-one {
+    font-weight: 400; 
+    font-size: 16px; 
+    color: black;
+    padding: 8px 10px;
+    background-color: #fff; 
+    cursor: pointer;
+}
+#head-one:hover {
+    color: #fff;
+    background-color: #333;    
+}
+#head-two {
+    font-weight: 400; 
+    font-size: 16px; 
+    color: white;
+    background-color: #0078BD; 
+    padding: 8px 10px; 
+    cursor: pointer;
+}
+#head-two:hover {
+    color: #fff; 
+    background: #333;
+}
+.header-section .wrapper .menu-bar .login h2 {
+    display: block;
+    float: left;
+}
+.header-section .wrapper .menu-bar .login .font {
+    font-size: 18px;
+}
+.header-section .wrapper .menu-bar .menu ul {}
+.header-section .wrapper .menu-bar .menu ul li {
+	float: left;
+	list-style: none;
+}
+.header-section .wrapper .menu-bar .menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 46px;
+    transition: 0.3s;
+}
+.header-section .wrapper .menu-bar .menu ul li:last-child {}
+.header-section .wrapper .menu-bar .menu ul li a:hover {
+	color: #0078BD;
+}
+/*Header Section CSS Ends*/
+
+/*Banner Section CSS Starts*/
+.banner-section {
+    background: url(../images/img1_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*margin-bottom: 80px;*/
+}
+.banner-section .wrapper .b-content {
+    width: 590px;
+    margin-top: 235px;
+    margin-bottom: 110px;
+}
+.banner-section .wrapper .b-content h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 44px;
+    color: #fff;
+}
+.banner-section .wrapper .b-content h2 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #0075B9;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+.banner-section .wrapper .b-content p {
+    line-height: 1.7;
+    font-size: 18px;
+    color: #fff;
+}
+.banner-section .wrapper .b-content button {
+    font-weight: 600;
+    font-size: 21px;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 13px 25px;
+}
+.banner-section .wrapper .b-content .font {
+    font-size: 23px;
+    padding-left: 15px;
+    color: #0178BD;
+}
+.banner-section .wrapper .b-content button:hover {
+    color: #0075B8;
+}
+/*Banner Section CSS Ends*/
+
+
+/*Service Section CSS Strats*/
+.service-section {
+    background: #121B2C;
+}
+.service-section .dot {
+    text-align: center;
+}
+.service-section .dot img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/*Single Item CSS Starts*/
+.service-section .wrapper .single {
+    width: 31%;
+    float: left;
+    padding: 0 18px 0px 18px;
+    border-right: 0.5px solid #333;
+    margin-bottom: 30px;
+}
+.service-section .wrapper .single:first-child {
+    padding: 0;
+}
+.service-section .wrapper .single:last-child {
+    margin-right:0;
+    border-right: 0 solid #ddd;
+}
+.service-section .wrapper .single .top {
+    overflow: hidden;
+    margin-top: 15px;
+}
+.service-section .wrapper .single .top .t-img {
+    width: 28%;
+    float: left;
+}
+.service-section .wrapper .single .top .t-img img {
+    width: 100%;
+}
+.service-section .wrapper .single .top .t-text {
+    padding-top: 5px;
+    padding-left: 100px;
+}
+.service-section .wrapper .single .top .t-text h2 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 27px;
+    color: #fff;
+    margin-top: 35px;
+}
+.service-section .wrapper .single .top .t-text h3 {
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #0279BD;
+}
+.service-section .wrapper .single .bottom {
+    margin-bottom: 40px;
+}
+.service-section .wrapper .single .bottom p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 55px;
+}
+/*Single Item CSS Ends*/
+/*Service Section CSS Ends*/
+
+
+/*Footer Top Section CSS Starts*/
+.footer-top {
+    background: #040811;
+    padding-top: 20px;
+}
+.footer-top .wrapper {
+    width: 76%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*Single Item CSS Starts*/
+.footer-top .wrapper .single {
+    width: 33%;
+    float: left;
+    margin: 30px 0 10px 0;
+    padding-right: 32px;
+    /* border: 1px solid red; */
+}
+.footer-top .wrapper .single:first-child {
+    width: 30%;
+    margin-top: 51px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer-top .wrapper .single:last-child {
+    padding-right: 0;
+}
+.footer-top .wrapper .single h2 {
+    font-weight: 100;
+    font-size: 24px;
+    color: #fff;
+}
+.footer-top .wrapper .single pre {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 25px;
+    margin-top: 18px;
+    display: inline-block;
+}
+/*Single Item CSS Ends*/
+
+/*Single Item CSS Starts*/
+.footer-top .wrapper .single .single-mid {
+    background: rgba(204, 204, 204, 0.1);
+    margin-bottom: 20px;
+    padding: 20px 12px;
+    border-radius: 10px;
+}
+#talkbubble {
+    width: 295px;
+    height: 150px;
+    background: rgba(204, 204, 204, 0.1);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 13%;
+    top: 190px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 66px solid transparent;
+    border-top: 25px solid rgba(204, 204, 204, 0.1);
+}
+.footer-top .wrapper .single .single-mid p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 23px;
+    margin-top: 23px;
+}
+.footer-top .wrapper .single .text p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 22px;
+    margin-left: 15px;
+}
+/*Single Item CSS Ends*/
+
+/*Single Item CSS Starts*/
+.footer-top .wrapper .single .image {
+    float: left;
+}
+.footer-top .wrapper .single .image img {
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 130px;
+}
+.footer-top .wrapper .single .text {}
+.footer-top .wrapper .single .text .top {}
+.footer-top .wrapper .single .text .top h2 {}
+.footer-top .wrapper .single .text .top h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #0275B8;
+    margin-top: 3px;
+}
+.footer-top .wrapper .single .text .bottom {}
+.footer-top .wrapper .single .text .bottom img {
+    width: 178px;
+    margin-top: 8px;
+}
+/*Single Item CSS Ends*/
+/*Footer Top Section CSS Ends*/
+
+
+/*Footer Sections CSS Starts*/
+.footer-section {
+    background: #121B2C;
+}
+.footer-section .wrapper {
+    width: 74%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer-section .wrapper .foot-right {
+    width: 65%;
+    float: left;
+}
+.footer-section .wrapper .foot-right .menu {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.footer-section .wrapper .foot-right .menu ul {}
+.footer-section .wrapper .foot-right .menu ul li {
+    float: left;
+    list-style: none;
+}
+
+.footer-section .wrapper .foot-right .menu ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 0 18px;
+    border-right: 1px solid #fff;
+}
+.footer-section .wrapper .foot-right .menu ul li:first-child a {
+    padding-left : 0;
+}
+.footer-section .wrapper .foot-right .menu ul li:last-child a {
+    border-right: 0;
+}
+.footer-section .wrapper .foot-right .menu ul li a:hover {
+    color: #0274BA;
+}
+.footer-section .wrapper .foot-right .foot-text {}
+.footer-section .wrapper .foot-right .foot-text p {
+    font-size: 14px;
+    color: #fff;
+}
+.footer-section .wrapper .foot-left {
+    width: 35%;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.footer-section .wrapper .foot-left img {
+    float: right;
+}
+/*Footer Sections CSS Ends*/
+
